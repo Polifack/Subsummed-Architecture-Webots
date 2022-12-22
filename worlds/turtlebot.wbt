@@ -1,0 +1,198 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  lineScale 0.05
+  contactProperties [
+    ContactProperties {
+      material2 "khepera4 caster wheel"
+      coulombFriction [
+        0.01
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.35440122900866816 -0.179315366669633 0.9177394881736759 4.011040248992791
+  position 2.2146640029353692 2.176464391880129 3.5542159871683365
+}
+TexturedBackground {
+  texture "dusk"
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+CircleArena {
+  radius 3
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0.4 0.4 0.4
+  }
+}
+WoodenBox {
+  translation -1.49928 2.05839 0.11
+  rotation -0.09269171116648352 0.704062084817699 0.7040630848178195 -2.9567353071795863
+  name "wooden box(5)"
+  size 0.2 0.26 0.7
+}
+WoodenBox {
+  translation 0.0281442 -1.25187 0.11
+  rotation -0.774596121297889 0.44721507003164934 0.4472130700313362 -1.823475307179586
+  name "wooden box(16)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.0961921 -1.11532 0.109999
+  rotation -0.47690495958779083 0.6215159473336731 0.6215139473338426 -2.251585307179586
+  name "wooden box(7)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.75057 -0.804137 0.11
+  rotation -0.3779639046151512 0.6546548347880534 0.6546528347885582 -2.4188553071795864
+  name "wooden box(12)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.64264 0.662065 0.11
+  rotation 0.9351130202409891 -0.25056400542358326 -0.25056200542353996 1.63783
+  name "wooden box(10)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.17531 2.35368 0.11
+  rotation -0.774596121297889 0.44721507003164934 0.4472130700313362 -1.823475307179586
+  name "wooden box(13)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.99138 -0.112256 0.11
+  rotation -0.9831054064605903 0.12943005351228423 0.12942805351145734 -1.5878353071795859
+  name "wooden box(8)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.44108 1.38528 0.11
+  rotation -1 7.69303e-07 -2.17518e-07 -1.5707953071795862
+  name "wooden box(11)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.02573 1.27403 0.11
+  rotation -0.47690525599184136 0.6215153336152258 0.6215143336146891 -2.251585307179586
+  name "wooden box(23)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.291021 2.47034 0.11
+  rotation 0.6776608267946584 0.5199888670945025 0.5199878670947581 1.95044
+  name "wooden box(14)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.578316 2.23728 0.11
+  rotation 0.6776608267946584 0.5199888670945025 0.5199878670947581 1.95044
+  name "wooden box(18)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.19725 1.76391 0.11
+  rotation -0.1861570160863869 0.6947470600351803 0.6947460600350939 -2.7734953071795863
+  name "wooden box(19)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.5593 0.87777 0.11
+  rotation -0.09269190944815123 0.7040630717656419 0.7040620717655399 -2.9567453071795864
+  name "wooden box(20)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.36309 -0.872906 0.11
+  rotation 0.09269131460292965 0.7040641109208422 0.7040611109203696 2.95674
+  name "wooden box(15)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.59095 -0.0228877 0.11
+  rotation 0.09269131460292965 0.7040641109208422 0.7040611109203696 2.95674
+  name "wooden box(3)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.12731 0.101348 0.11
+  rotation -0.6776602860170878 -0.5199902194699783 -0.5199872194687121 -1.9504353071795864
+  name "wooden box(1)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.347627 -0.103858 0.11
+  rotation -0.9831054064605903 0.12943005351228423 0.12942805351145734 -1.5878253071795863
+  name "wooden box(22)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.252437 0.818488 0.11
+  rotation -0.9831054064605903 0.12943005351228423 0.12942805351145734 -1.5878253071795863
+  name "wooden box(2)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.190366 0.352405 0.11
+  rotation -0.6776602860170878 -0.5199902194699783 -0.5199872194687121 -1.9504353071795864
+  name "wooden box(21)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.313674 0.0940598 0.110001
+  rotation 0.09269121546170984 0.704065117444253 0.704060117443419 2.95674
+  name "wooden box(4)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.79391 -0.191369 0.110004
+  rotation -0.6776595812630928 -0.5199916786886611 -0.5199866786917507 -1.9504353071795864
+  name "wooden box(6)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.849456 -1.13599 0.11
+  rotation -0.47690525599088757 0.6215163336145195 0.6215133336129093 -2.2515953071795867
+  name "wooden box(17)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.858836 -1.03178 0.109999
+  rotation -0.5773489358550934 -0.5773519358547601 -0.5773499358549823 -2.0943853071795866
+  name "wooden box(9)"
+  size 0.2 0.25 1
+}
+TurtleBot3Burger {
+  hidden position_0_0 5.416096471791658
+  hidden position_0_1 4.903902985334499
+  hidden position_0_2 0.0444778406005343
+  hidden position2_0_2 -0.044139996845857836
+  hidden position3_0_2 0.5953808539397375
+  hidden position_1_0 13.854720000000006
+  hidden position_1_1 13.854720000000006
+  hidden rotation_2 -0.685485319582536 0.5148339195481025 0.5148358106421564 1.9397600791688394
+  hidden translation_3 -0.033179502610989675 -0.009999999999999998 -0.04417731144714874
+  hidden rotation_3 -0.685485319582536 0.5148339195481025 0.5148358106421564 1.9397600791688394
+  hidden translation_8 0 -0.08 0.033
+  hidden rotation_8 0 0.9999999999999999 0 4.660506738528184
+  hidden translation_9 0 0.08 0.033
+  hidden rotation_9 0.5380746232101291 5.015158676027313e-07 0.8428972059848259 3.141597197797678
+  hidden translation_10 -0.081 0 0.004
+  hidden rotation_10 -0.1071654041826258 -0.10403415015716728 0.9887833290197859 0.34157419856643356
+  translation -0.172419 -0.845223 0.00147026
+  rotation -0.0011573055584227286 -0.000987749553389457 -0.999998842496662 1.724587782506171
+  controller "turtlebot_controller"
+}

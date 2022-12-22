@@ -1,0 +1,202 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/k-team/khepera4/protos/Khepera4.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  lineScale 0.05
+  contactProperties [
+    ContactProperties {
+      material2 "khepera4 caster wheel"
+      coulombFriction [
+        0.01
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.5385789064549062 -0.6507445597663546 -0.5352235789427918 4.2896776515089385
+  position -2.2345131082846907 -0.1496708393345061 8.024810050629869
+  follow "Khepera IV"
+}
+TexturedBackground {
+  texture "dusk"
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+CircleArena {
+  radius 3
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0.4 0.4 0.4
+  }
+}
+WoodenBox {
+  translation -1.49928 2.05839 0.11
+  rotation -0.09269171116648352 0.704062084817699 0.7040630848178195 -2.9567353071795863
+  name "wooden box(5)"
+  size 0.2 0.26 0.7
+}
+WoodenBox {
+  translation 0.131901 -1.71157 0.11
+  rotation -0.774596121297889 0.44721507003164934 0.4472130700313362 -1.823475307179586
+  name "wooden box(16)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.672889 -1.79937 0.11
+  rotation -0.47690495958779083 0.6215159473336731 0.6215139473338426 -2.251585307179586
+  name "wooden box(7)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.94092 -0.816918 0.11
+  rotation -0.28108399108050236 0.6785999784663265 0.6785969784664218 -2.593565307179586
+  name "wooden box(12)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.7433 0.63542 0.11
+  rotation 0.8628559982587566 -0.35740799927875067 -0.3574059992787547 1.71777
+  name "wooden box(10)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.17531 2.35368 0.11
+  rotation -0.774596121297889 0.44721507003164934 0.4472130700313362 -1.823475307179586
+  name "wooden box(13)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -2.11696 -0.0786104 0.11
+  rotation -0.9831054064605903 0.12943005351228423 0.12942805351145734 -1.5878353071795859
+  name "wooden box(8)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.44108 1.38528 0.11
+  rotation -1 7.69303e-07 -2.17518e-07 -1.5707953071795862
+  name "wooden box(11)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -0.291021 2.47034 0.11
+  rotation 0.6776608267946584 0.5199888670945025 0.5199878670947581 1.95044
+  name "wooden box(14)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.578316 2.23728 0.11
+  rotation 0.6776608267946584 0.5199888670945025 0.5199878670947581 1.95044
+  name "wooden box(18)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.19725 1.76391 0.11
+  rotation -0.1861570160863869 0.6947470600351803 0.6947460600350939 -2.7734953071795863
+  name "wooden box(19)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.5593 0.87777 0.11
+  rotation -0.09269190944815123 0.7040630717656419 0.7040620717655399 -2.9567453071795864
+  name "wooden box(20)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.36309 -0.872906 0.11
+  rotation 0.09269131460292965 0.7040641109208422 0.7040611109203696 2.95674
+  name "wooden box(15)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 1.59095 -0.0228877 0.11
+  rotation 0.09269131460292965 0.7040641109208422 0.7040611109203696 2.95674
+  name "wooden box(3)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation 0.886522 -1.38407 0.11
+  rotation -0.6776611791678793 0.5199901374809905 0.5199861374799329 -1.950445307179586
+  name "wooden box(17)"
+  size 0.2 0.25 1
+}
+WoodenBox {
+  translation -1.2575 -0.980141 0.11
+  rotation -0.6776590404813193 0.5199930310628247 0.5199860310624064 -1.950445307179586
+  name "wooden box(9)"
+  size 0.2 0.25 1
+}
+Khepera4 {
+  translation -1.34956 0.484207 -0.000541391
+  rotation -0.0003655629678083552 0.00020611798184915476 0.9999999119395431 2.60982
+  controller "khepera4_controller"
+}
+SolidBox {
+  translation 0.898982 -0.681047 0.1
+  rotation 0 0 -1 -1.0472053071795866
+  name "danger"
+  size 1.8 1 0.2
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.959673 0.933858 0.1
+  rotation 0 0 1 0.523599
+  name "food"
+  size 0.2 0.2 0.2
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.14421 2.0258 0.1
+  rotation 0 0 1 2.0944
+  name "enemy"
+  size 0.2 0.2 0.2
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.17684 1.58735 0.1
+  rotation 0 0 1 2.3562
+  name "enemy(1)"
+  size 0.2 0.2 0.2
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+  }
+}
